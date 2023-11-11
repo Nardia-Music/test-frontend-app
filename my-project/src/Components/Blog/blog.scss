@@ -1,0 +1,30 @@
+/* blog.css */
+.blog {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap:2;
+  background-color: black;
+  
+}
+
+
+.blog-column{
+  margin: 0 auto;
+   max-width: 100%;
+  overflow-x: hidden;
+}
+
+.blog-details{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap:2;
+}
+
+@media (max-width: 900px) {
+  .blog{
+    display: block;
+  }
+  .blog-details {
+    display: block;
+  }
+}
